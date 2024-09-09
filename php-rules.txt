@@ -1,0 +1,14 @@
+php -S localhost:8000 -t public
+
+
+userid
+name
+
+title ?slug
+des
+image ?
+category ? slug
+department
+roles
+ex
+

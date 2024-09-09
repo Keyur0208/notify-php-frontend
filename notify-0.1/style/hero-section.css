@@ -1,0 +1,12 @@
+
+.change::after
+{
+    content:'';
+    animation: changetext 20s infinite linear;
+}
+
+@keyframes changetext {
+    0%{content:"Prof. V. B. Shah Institute of Management Sutex Bank College of Computer Applications & Science";}
+    50%{content: "R. V. Patel College of Commerce (Eng. Medium) V. L. Shah College of Commerce (Guj. Medium)";}
+    100%{content: "Prof. V. B. Shah Institute of Management Sutex Bank College of Computer Applications & Science";}
+}

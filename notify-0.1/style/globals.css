@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* All select */
+
+/* ::selection{
+    background-color:transparent;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.emoji-button {
+    transition: transform 0.2s ease;
+}
+
+.emoji-button.selected {
+    animation: pulse 0.6s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Custom CSS for smooth dropdown */
+
+.dropdown-content {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.dropdown-open {
+    max-height: 500px;
+    opacity: 1;
+}
+
+

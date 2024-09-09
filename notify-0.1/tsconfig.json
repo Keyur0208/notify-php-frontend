@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./app*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "config/fonts.tsx", "componets/clock/clock.tsx", "app/(pages)/leave/page.tsx", "section/leave.tsx", "componets/staff/addstaff.tsx", "app/(pages)/admin/staff/page.tsx", "componets/staff/deleteStaff.tsx", "app/(pages)/admin/report/page.tsx", "middleware.js"],
+  "exclude": ["node_modules"]
+}
+
