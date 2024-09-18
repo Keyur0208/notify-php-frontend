@@ -29,7 +29,7 @@
     "js-cookie": "^3.0.5",
     "material-table": "^1.63.0",
     "moment": "^2.30.1",
-    "next": "14.2.3",
+    "next": "14.2.10",
     "next-nprogress-bar": "^2.3.12",
     "next-themes": "^0.3.0",
     "notistack": "^3.0.1",
